@@ -5,6 +5,7 @@ import "./homePage.scss";
 import Footer from "../../components/Footer/Footer";
 
 export default function HomePage() {
+  const handleClick = (e) => {};
   return (
     <div className="home-page">
       <NavBar />
@@ -14,12 +15,22 @@ export default function HomePage() {
           source="/assets/challenge.jpg"
           alt="challenge-image"
           title="Challenges"
+          name="challenges"
+          handleClick={handleClick}
         />
-        <Grid source="/assets/labs.jpg" alt="lab-image" title="Labs" />
+        <Grid
+          source="/assets/labs.jpg"
+          alt="lab-image"
+          title="Labs"
+          name="labs"
+          handleClick={handleClick}
+        />
         <Grid
           source="/assets/projects.jpg"
           alt="project-image"
           title="Projects"
+          name="projects"
+          handleClick={handleClick}
         />
       </div>
       <Footer />

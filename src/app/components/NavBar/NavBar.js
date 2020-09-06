@@ -8,15 +8,8 @@ export default function NavBar() {
         <img className="logo-pic" src="/assets/logo.png" alt="prer-logo" />
       </div>
       <div className="search-bar">
-        <input className="search-bar" type="text" placeholder="search" />
-
-        <div>
-          <img
-            className="search-img"
-            src="/assets/search.webp"
-            alt="lens-img"
-          />
-        </div>
+        <input type="text" placeholder="search" />
+        <img src="/assets/search.webp" alt="lens-img" />
       </div>
     </div>
   );

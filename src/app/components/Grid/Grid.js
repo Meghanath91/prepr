@@ -1,10 +1,10 @@
 import React from "react";
 import "./grid.scss";
 
-export default function Grid({ source, alt, title }) {
+export default function Grid({ source, alt, title, handleClick }) {
   return (
-    <div className="grid">
-      <div>
+    <div className="grid" onClick={handleClick}>
+      <div className="grid-img-container">
         <img className="grid-img" src={source} alt={alt} />
       </div>
       <div className="title-container">
