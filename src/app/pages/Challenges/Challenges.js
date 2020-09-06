@@ -2,26 +2,27 @@ import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import SecondaryNavBar from "../../components/SecondaryNavBar/SecondaryNavBar";
 import TaskComponent from "../../components/TaskComponent/TaskComponent";
-import "./projects.scss";
+import "./challenge.scss";
 
-export default function Projects() {
+export default function Challenges() {
   return (
-    <div className="projects-page">
+    <div className="challenges-page">
+      {" "}
       <NavBar />
       <SecondaryNavBar />
       <TaskComponent
-        source="/assets/projects.jpg"
-        title="Automation Project"
+        source="/assets/fullstack.png"
+        title="Business Challenge"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
       <TaskComponent
         source="/assets/projects.jpg"
-        title="Full Stack Project"
+        title="Full Stack Challenge"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
       <TaskComponent
-        source="/assets/projects.jpg"
-        title="Automation Project"
+        source="/assets/frontend.jpg"
+        title="Front End Challenge"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
     </div>

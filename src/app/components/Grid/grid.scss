@@ -3,7 +3,9 @@
   width: 30%;
   border-radius: 25px;
 }
-
+.grid:hover {
+  cursor: pointer;
+}
 .title-container {
   background-color: rgb(255, 255, 255);
   padding: 2%;

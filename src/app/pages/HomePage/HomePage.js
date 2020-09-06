@@ -1,11 +1,17 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import NavBar from "../../components/NavBar/NavBar";
 import Grid from "../../components/Grid/Grid";
 import "./homePage.scss";
 import Footer from "../../components/Footer/Footer";
 
 export default function HomePage() {
-  const handleClick = (e) => {};
+  const history = useHistory();
+  const handleClick = (e, route) => {
+    if (route) {
+      history.push(`/${route}`);
+    }
+  };
   return (
     <div className="home-page">
       <NavBar />

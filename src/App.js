@@ -2,12 +2,12 @@ import React from "react";
 
 import "./App.scss";
 
-import HomePage from "./app/pages/HomePage/HomePage";
+import Routes from "./Routes";
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <Routes />
     </div>
   );
 }

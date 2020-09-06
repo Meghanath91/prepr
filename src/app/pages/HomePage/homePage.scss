@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: column;
   font-size: 2.5rem;
-  background-color: rgb(17, 29, 20);
+  background-color: rgb(16, 31, 20);
+  text-align: center;
 }
 .home-page h1 {
   color: rgb(216, 241, 220);
@@ -18,7 +19,7 @@
 @media only screen and (max-width: 768px) {
   .home-page {
     font-size: 1rem;
-    background-color: rgb(12, 6, 6);
+    background-color: rgb(16, 31, 20);
   }
   .grid-container {
     display: flex;

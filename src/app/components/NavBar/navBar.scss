@@ -2,12 +2,14 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  background-color: rgb(16, 31, 20);
 }
 .search-bar {
   width: 25%;
-  border-radius: 15px;
+  border-radius: 10px;
   margin-right: 2%;
   margin-top: 1%;
+  margin-bottom: 1%;
   background-color: #f4fff0;
   display: flex;
   justify-content: space-around;
@@ -24,9 +26,15 @@
   border: none;
   border-radius: 15px;
 }
+.search-bar input:focus {
+  outline: none;
+}
 
 .company-logo {
   padding-left: 2%;
+}
+.company-logo :hover {
+  cursor: pointer;
 }
 .logo-pic {
   width: 80px;

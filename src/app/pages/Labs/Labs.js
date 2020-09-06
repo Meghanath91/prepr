@@ -2,26 +2,25 @@ import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import SecondaryNavBar from "../../components/SecondaryNavBar/SecondaryNavBar";
 import TaskComponent from "../../components/TaskComponent/TaskComponent";
-import "./projects.scss";
 
-export default function Projects() {
+export default function Labs() {
   return (
-    <div className="projects-page">
+    <div>
       <NavBar />
       <SecondaryNavBar />
       <TaskComponent
         source="/assets/projects.jpg"
-        title="Automation Project"
+        title="FUN Lab section C"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
       <TaskComponent
-        source="/assets/projects.jpg"
-        title="Full Stack Project"
+        source="/assets/frontend.jpg"
+        title="FUN Lab section B"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
       <TaskComponent
-        source="/assets/projects.jpg"
-        title="Automation Project"
+        source="/assets/fullstack.png"
+        title="FUN Lab section A"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
     </div>
