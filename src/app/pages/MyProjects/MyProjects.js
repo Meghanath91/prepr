@@ -23,6 +23,13 @@ export default function MyProjects() {
           additionalButton="Delete"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
         />
+        <TaskComponent
+          source="/assets/fullstack.png"
+          title="Front End Challenge"
+          button="Details"
+          additionalButton="Delete"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
+        />
       </div>
     </div>
   );
