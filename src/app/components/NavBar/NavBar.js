@@ -7,6 +7,10 @@ export default function NavBar() {
   const handleClick = () => {
     history.push("/");
   };
+  // const handleMode = () => {
+  //   const element = document.body;
+  //   element.classList.toggle("dark-mode");
+  // };
   return (
     <div className="navbar">
       <div className="company-logo">
@@ -17,6 +21,7 @@ export default function NavBar() {
           onClick={handleClick}
         />
       </div>
+      {/* <button onClick={handleMode}>mode</button> */}
       <div className="search-bar">
         <input type="text" placeholder="search" />
         <img src="/assets/search.webp" alt="lens-img" />
