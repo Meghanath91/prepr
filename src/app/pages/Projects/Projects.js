@@ -12,16 +12,19 @@ export default function Projects() {
       <TaskComponent
         source="/assets/projects.jpg"
         title="Automation Project"
+        button="View"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
       <TaskComponent
         source="/assets/projects.jpg"
         title="Full Stack Project"
+        button="View"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
       <TaskComponent
         source="/assets/projects.jpg"
         title="Automation Project"
+        button="View"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
     </div>

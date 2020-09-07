@@ -20,7 +20,26 @@
   font-size: 1.8rem;
 }
 .link {
-  padding-top: 23%;
   color: rgb(21, 245, 21);
   font-size: 1.5rem;
+}
+.view-button {
+  padding-top: 15%;
+  display: flex;
+}
+.view-button img {
+  width: 30px;
+  height: 30px;
+}
+.delete-button {
+  padding-top: 15%;
+  display: flex;
+  color: rgb(235, 104, 81);
+  font-size: 1.5rem;
+  padding-right: 2%;
+}
+.delete-button img {
+  padding-left: 18%;
+  width: 25px;
+  height: 25px;
 }

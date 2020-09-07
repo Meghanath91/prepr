@@ -13,16 +13,19 @@ export default function Challenges() {
       <TaskComponent
         source="/assets/fullstack.png"
         title="Business Challenge"
+        button="View"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
       <TaskComponent
         source="/assets/projects.jpg"
         title="Full Stack Challenge"
+        button="View"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
       <TaskComponent
         source="/assets/frontend.jpg"
         title="Front End Challenge"
+        button="View"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu"
       />
     </div>
