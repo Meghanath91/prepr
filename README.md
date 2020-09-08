@@ -1,6 +1,10 @@
-## Available Scripts
+## Prepr
 
-In the project directory, you can run:
+To install application :
+
+1. Install NodeJs(version 12.16 and up)
+2. run `npm install` to install dependencies.
+   In the project directory, you can run:
 
 ### `npm start`
 
