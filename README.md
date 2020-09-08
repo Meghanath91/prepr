@@ -15,8 +15,8 @@ To visit the deployed application (https://prepr-challenge.netlify.app)
 
 ## Screenshots
 
-!["welcome Screen"](https://github.com/Meghanath91/UserApp/blob/master/app/assets/welcome.jpg)
+!["Landing-page"](https://github.com/Meghanath91/prepr/blob/master/public/projectDemo/landingPage.jpg)
 
-!["Login Screen"](https://github.com/Meghanath91/UserApp/blob/master/app/assets/login.jpg)
+!["Main-page"](https://github.com/Meghanath91/prepr/blob/master/public/projectDemo/mainPage.jpg)
 
-!["Register screen"](https://github.com/Meghanath91/UserApp/blob/master/app/assets/register.jpg)
+!["My-projects"](https://github.com/Meghanath91/prepr/blob/master/public/projectDemo/myProjects.jpg)
