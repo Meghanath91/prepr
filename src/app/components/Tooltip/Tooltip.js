@@ -13,6 +13,7 @@ export default function ToolTip({ content }) {
   }))(Tooltip);
   return (
     <HtmlTooltip
+      enterTouchDelay={100}
       title={
         <React.Fragment>
           <Typography color="inherit"></Typography> {content}
