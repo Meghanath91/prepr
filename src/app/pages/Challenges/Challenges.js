@@ -3,6 +3,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import SecondaryNavBar from "../../components/SecondaryNavBar/SecondaryNavBar";
 import TaskComponent from "../../components/TaskComponent/TaskComponent";
 import "./challenge.scss";
+import ToolTip from "../../components/Tooltip/Tooltip";
 
 export default function Challenges() {
   return (
@@ -10,6 +11,7 @@ export default function Challenges() {
       {" "}
       <NavBar />
       <SecondaryNavBar />
+      <ToolTip content="hi" />
       <TaskComponent
         source="/assets/fullstack.png"
         title="Business Challenge"

@@ -1,0 +1,15 @@
+.tooltip-icon {
+  margin-left: 10%;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+.img-tooltip {
+  width: 25px;
+  height: 25px;
+}
+@media only screen and (min-width: 768px) {
+  .tooltip-icon {
+    margin-left: 10%;
+  }
+}
